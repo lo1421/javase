@@ -10,9 +10,9 @@ public class ComplexTest {
         double imagePart = 0.0;
         Scanner s = new Scanner(System.in);
         System.out.print("输入第一个复数的实部：");
-         realPart = s.nextDouble();
+        realPart = s.nextDouble();
         System.out.print("输入第一个复数的虚部：");
-         imagePart = s.nextDouble();
+        imagePart = s.nextDouble();
         Complex complex1 = new Complex(realPart,imagePart);
         System.out.print("输入第二个复数的实部：");
         realPart = s.nextDouble();
