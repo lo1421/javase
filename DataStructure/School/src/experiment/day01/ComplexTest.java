@@ -2,12 +2,12 @@ package experiment.day01;
 
 import java.util.Scanner;
 
-//测试封装的复数类，实现负数的加减
+//测试封装的复数类，实现负数的四则运算
 public class ComplexTest {
     //这里我们可以采取从键盘中输入复数的实部和虚部
     public static void main(String[] args) {
-        double realPart = 0.0;
-        double imagePart = 0.0;
+        double realPart ;
+        double imagePart ;
         Scanner s = new Scanner(System.in);
         System.out.print("输入第一个复数的实部：");
         realPart = s.nextDouble();
