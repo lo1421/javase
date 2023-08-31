@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919367dc-9107-468b-9057-682a2730d387" name="Changes" comment="day04.Test03">
-      <change afterPath="$PROJECT_DIR$/August/src/day10/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/August/src/day10/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/experiment/day01/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/experiment/day01/Complex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/experiment/day01/ComplexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/experiment/day01/ComplexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../School/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../School/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../School/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../School/src/experiment/day01/Complex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../School/src/experiment/day01/ComplexTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/MyArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/August/src/day10/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/August/src/day10/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/August/src/day10/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/August/src/day10/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/August/day10/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/August/day10/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/August/day10/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/August/day10/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/August/day10/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/August/day10/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +50,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://C:/Program Files/jdk-17.0.6/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/August/src/day10/MyLinkedList.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/August/src/day10/MyLinkedList.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2TNSPEOSTLXGYbGsNtle7aMPfvx" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,16 +68,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/javase/DataStructure",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "D:/Users/14214/javase/DataStructure/August/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,13 +92,13 @@
       <recent name="D:\javase\DataStructure\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day10.Test">
-    <configuration name="ComplexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="experiment.day01.ComplexTest" />
-      <module name="School" />
+  <component name="RunManager" selected="Application.MyArrayListTest">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.Example" />
+      <module name="August" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="experiment.day01.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.Example" />
-      <module name="August" />
+    <configuration name="MyArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextReport.MyArrayListTest" />
+      <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="TextReport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,7 +174,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test03" />
-      <item itemvalue="Application.ComplexTest" />
+      <item itemvalue="Application.MyArrayListTest" />
       <item itemvalue="Application.Example" />
       <item itemvalue="Application.Test2" />
       <item itemvalue="Application.Test" />
@@ -168,11 +182,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyArrayListTest" />
         <item itemvalue="Application.day10.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.ComplexTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690882019258</updated>
+      <workItem from="1693444660679" duration="10592000" />
     </task>
     <task id="LOCAL-00001" summary="day03.Test03">
       <created>1691287411051</created>
@@ -250,6 +265,9 @@
     </task>
     <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

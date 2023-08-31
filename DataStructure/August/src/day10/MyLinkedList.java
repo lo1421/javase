@@ -102,6 +102,40 @@ public class MyLinkedList {
         }
         return slow;
     }
+
+    //判断一个链表是否为回文链表
+    public boolean chkPalindrome(ListNode head) {
+        if (head == null) {
+            return false;
+        }
+        //找到中间节点
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        //翻转中间节点之后的链表
+        ListNode cur = slow.next;
+        while (cur != null) {
+            ListNode curNext = cur.next;
+            cur.next = slow;
+            slow = cur;
+            cur = curNext;
+        }
+        //判断链表是否为回文链表
+        while (head != slow) {
+            if (head.var != slow.var) {
+                return false;
+            }
+            if (slow.next == cur) {
+                return true;
+            }
+            head = head.next;
+            slow = slow.next;
+        }
+        return true;
+    }
 }
 
 class ListNode {
