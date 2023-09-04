@@ -15,6 +15,10 @@ public class MyArrayList {
         this.elem = new int[DEFAULT_CAPACITY];
     }
 
+    public MyArrayList(int defaultSize) {
+        this.elem = new int[defaultSize];
+    }
+
     //    打印顺序表的方法（顺序表中有几个有效元素就打印几个有效元素）
     public void display() {
         for (int i = 0; i < usedSize; i++) {
@@ -74,6 +78,7 @@ public class MyArrayList {
         return -1;
     }
 
+
     //获取指定下标pos的值
     public int getPos(int pos) {
         int retVal = -1;
@@ -102,8 +107,16 @@ public class MyArrayList {
         usedSize--;
     }
 
+    /**
+     * removeAll 方法删除整个顺序表
+     */
+    public void removeAll() {
+        elem = new int[5];
+        usedSize = 0;
+    }
+
     //    判满方法
-    public boolean isFull() {
+    private boolean isFull() {
         return usedSize == elem.length;
     }
 
@@ -115,12 +128,22 @@ public class MyArrayList {
     }
 
     //   判断下标pos是否合法
-    public boolean checkGetPos(int pos) {
+    private boolean checkGetPos(int pos) {
         if (pos < 0 || pos >= usedSize) {
             return false;
         }
         return true;
     }
+
+    /**
+     * 获取顺序表的个数
+     *
+     * @return 返回数组的大小
+     */
+    public int size() {
+        return usedSize;
+    }
+
 
 }
 

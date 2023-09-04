@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919367dc-9107-468b-9057-682a2730d387" name="Changes" comment="day04.Test03">
-      <change afterPath="$PROJECT_DIR$/School/src/TextReport/EmptyStackException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/TextReport/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/TextReport/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/BracketCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/BracketCatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/MyQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/MyArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/PosIndexIllegalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/PosIndexIllegalException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/StackTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +52,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/jdk-17.0.6/lib/src.zip!/java.base/java/lang/System.java" root0="SKIP_INSPECTION" />
     <setting file="jar://C:/Program Files/jdk-17.0.6/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/August/src/day10/MyLinkedList.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -78,7 +87,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -86,10 +95,52 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javase\DataStructure\src" />
     </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="newList.usedSize" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.StackTest">
+  <component name="RunManager" selected="Application.MyArrayListTest">
+    <configuration name="BracketCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextReport.BracketCatch" />
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TextReport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BracketCatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextReport.BracketCatchTest" />
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TextReport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextReport.MyArrayListTest" />
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TextReport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextReport.MyQueueTest" />
       <module name="School" />
       <extension name="coverage">
         <pattern>
@@ -114,19 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.Test" />
-      <module name="August" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test03" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02.Test03" />
       <module name="August" />
@@ -141,47 +179,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.Test2" />
-      <module name="August" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day10.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.Test" />
-      <module name="August" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Test03" />
+      <item itemvalue="Application.BracketCatch" />
+      <item itemvalue="Application.BracketCatchTest" />
+      <item itemvalue="Application.MyQueueTest" />
       <item itemvalue="Application.StackTest" />
       <item itemvalue="Application.MyArrayListTest" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.day10.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.MyArrayListTest" />
-        <item itemvalue="Application.day10.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.MyQueueTest" />
+        <item itemvalue="Application.BracketCatchTest" />
+        <item itemvalue="Application.BracketCatch" />
+        <item itemvalue="Application.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +207,11 @@
       <updated>1690882019258</updated>
       <workItem from="1693444660679" duration="10592000" />
       <workItem from="1693535070391" duration="6574000" />
+      <workItem from="1693617731867" duration="481000" />
+      <workItem from="1693618232135" duration="23644000" />
+      <workItem from="1693756849307" duration="3733000" />
+      <workItem from="1693787817965" duration="2525000" />
+      <workItem from="1693802717030" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="day03.Test03">
       <created>1691287411051</created>
