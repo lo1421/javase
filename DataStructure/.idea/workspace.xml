@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919367dc-9107-468b-9057-682a2730d387" name="Changes" comment="day04.Test03">
-      <change afterPath="$PROJECT_DIR$/School/src/TextReport/BracketCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/TextReport/BracketCatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/TextReport/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/TextReport/MyQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TestClass/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TestClass/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TestClass/MyStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/MyArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/PosIndexIllegalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/PosIndexIllegalException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/TextReport/StackTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +91,7 @@
       <recent name="newList.usedSize" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyArrayListTest">
+  <component name="RunManager" selected="Application.MyStackTest">
     <configuration name="BracketCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextReport.BracketCatch" />
       <module name="School" />
@@ -152,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextReport.StackTest" />
+    <configuration name="MyStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestClass.MyStackTest" />
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextReport.*" />
+          <option name="PATTERN" value="TestClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,19 +173,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test03" />
+      <item itemvalue="Application.MyStackTest" />
       <item itemvalue="Application.BracketCatch" />
       <item itemvalue="Application.BracketCatchTest" />
       <item itemvalue="Application.MyQueueTest" />
-      <item itemvalue="Application.StackTest" />
       <item itemvalue="Application.MyArrayListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyStackTest" />
         <item itemvalue="Application.MyArrayListTest" />
         <item itemvalue="Application.MyQueueTest" />
         <item itemvalue="Application.BracketCatchTest" />
         <item itemvalue="Application.BracketCatch" />
-        <item itemvalue="Application.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +204,7 @@
       <workItem from="1693756849307" duration="3733000" />
       <workItem from="1693787817965" duration="2525000" />
       <workItem from="1693802717030" duration="673000" />
+      <workItem from="1693912667255" duration="17805000" />
     </task>
     <task id="LOCAL-00001" summary="day03.Test03">
       <created>1691287411051</created>
