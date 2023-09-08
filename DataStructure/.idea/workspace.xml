@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919367dc-9107-468b-9057-682a2730d387" name="Changes" comment="day04.Test03">
-      <change afterPath="$PROJECT_DIR$/School/src/experiment/day02/List/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/experiment/day02/exaltation/AddressList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/experiment/day02/exaltation/LinkMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/experiment/day02/exaltation/LinkManManageSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/src/experiment/day02/exaltation/ListManEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/experiment/day02/List/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/experiment/day02/List/MyArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/TextReport/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/experiment/day02/List/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyArrayListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/MyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/TextReport/PosIndexIllegalException.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +216,7 @@
       <workItem from="1694141756878" duration="6932000" />
       <workItem from="1694173360917" duration="281000" />
       <workItem from="1694176381993" duration="2947000" />
-      <workItem from="1694180384693" duration="1051000" />
+      <workItem from="1694180384693" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="day03.Test03">
       <created>1691287411051</created>
