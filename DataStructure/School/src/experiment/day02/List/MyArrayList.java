@@ -1,4 +1,4 @@
-package TextReport;
+package experiment.day02.List;
 
 import java.util.Arrays;
 

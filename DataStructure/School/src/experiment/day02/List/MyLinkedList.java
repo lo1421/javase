@@ -1,10 +1,18 @@
-package TextReport;
+package experiment.day02.List;
 
 //封装一个单向链表非循环的数据结构
 public class MyLinkedList {
     //头节点
-    private ListNode head;
+    public ListNode head;
     private int size;
+
+    public MyLinkedList() {
+
+    }
+
+    public MyLinkedList(MyLinkedList.ListNode head) {
+        this.head = head;
+    }
 
     //打印链表的方法
     public void display() {
@@ -29,14 +37,15 @@ public class MyLinkedList {
     //尾插法
     public void addLast(int data) {
         ListNode node = new ListNode(data);
-        ListNode cur = head;
         if (head == null) {
             head = node;
+        } else {
+            ListNode cur = head;
+            while (cur.next != null) {
+                cur = cur.next;
+            }
+            cur.next = node;
         }
-        while (cur.next != null) {
-            cur = cur.next;
-        }
-        cur.next = node;
     }
 
     //任意位置插入
@@ -148,9 +157,54 @@ public class MyLinkedList {
         return true;
     }
 
+    //查找是否包含关键字key
+    public boolean contain(int key) {
+        if (head == null) {
+            return false;
+        }
+        ListNode cur = head;
+        while (cur != null) {
+            if (cur.val == key) {
+                return true;
+            }
+            cur = cur.next;
+        }
+        return false;
+    }
+
+    //得到单链表的长度
+    public int size() {
+        ListNode cur = head;
+        int count = 0;
+        while (cur != null) {
+            count++;
+            cur = cur.next;
+        }
+        return count;
+    }
 
 
+    /*
+    清空链表有两种方式，一种是我们可以直接将head滞空
+    第二种是我们通过遍历链表，把每个节点的next域都手动滞空
+    很显然这两种方式的时间复杂度是不一样的
+     */
+    //清空链表
+    public void clear() {
+        this.head = null;
+    }
 
+
+    public void clear1() {
+        if (head == null) return;
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode curNext = cur.next;
+            cur.next = null;
+            cur = curNext;
+        }
+        head = null;
+    }
 
     //静态内部类，封装一个节点类
     static class ListNode {
@@ -162,6 +216,7 @@ public class MyLinkedList {
             this.val = val;
         }
     }
+
 }
 
 class PosIllegalException extends RuntimeException {
@@ -173,3 +228,4 @@ class PosIllegalException extends RuntimeException {
         super(msg);
     }
 }
+
