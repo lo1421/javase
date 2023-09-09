@@ -40,31 +40,31 @@ public class MyArrayListTest {
     /**
      * 合并两个升序的非递减顺序表，并返回新的合成的顺序表
      *
-     * @param list1 按值非递减顺序表一
-     * @param list2 按值非递减顺序表二
+     * @param LA 按值非递减顺序表一
+     * @param LB 按值非递减顺序表二
      * @return 返回一个新的合并了的链表
      */
-    public static MyArrayList merge(MyArrayList list1, MyArrayList list2) {
-        MyArrayList newList = new MyArrayList(50);
+    public static MyArrayList merge(MyArrayList LA, MyArrayList LB) {
+        MyArrayList newList = new MyArrayList(2000);
         int i = 0, j = 0;
-        while (i < list1.size() && j < list2.size()) {
-            if (list1.elem[i] < list2.elem[j]) {
-                newList.elem[newList.usedSize] = list1.elem[i];
+        while (i < LA.size() && j < LB.size()) {
+            if (LA.elem[i] < LB.elem[j]) {
+                newList.elem[newList.usedSize] = LA.elem[i];
                 i++;
                 newList.usedSize++;
             } else {
-                newList.elem[newList.usedSize] = list2.elem[j];
+                newList.elem[newList.usedSize] = LB.elem[j];
                 j++;
                 newList.usedSize++;
             }
         }
-        while (i < list1.size()) {
-            newList.elem[newList.usedSize] = list1.elem[i];
+        while (i < LA.size()) {
+            newList.elem[newList.usedSize] = LA.elem[i];
             i++;
             newList.usedSize++;
         }
-        while (j < list2.size()) {
-            newList.elem[newList.usedSize] = list2.elem[j];
+        while (j < LB.size()) {
+            newList.elem[newList.usedSize] = LB.elem[j];
             newList.usedSize++;
             j++;
         }

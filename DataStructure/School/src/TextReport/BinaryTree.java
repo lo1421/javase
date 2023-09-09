@@ -3,6 +3,36 @@ package TextReport;
 
 public class BinaryTree {
 
+    //遍历二叉树的几个方法
+    //前序遍历
+    public void preOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.val + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+
+    //中序遍历
+    public void inOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        inOrder(root.left);
+        System.out.print(root.val + " ");
+        inOrder(root.right);
+    }
+
+    //后续遍历
+    public void lastOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        lastOrder(root.left);
+        lastOrder(root.right);
+        System.out.print(root.val + " ");
+    }
     //使用穷举法模拟实现一个二叉树
     public TreeNode createBinaryTree() {
         TreeNode A = new TreeNode('A');

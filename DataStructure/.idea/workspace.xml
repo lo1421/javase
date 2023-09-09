@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919367dc-9107-468b-9057-682a2730d387" name="Changes" comment="day04.Test03">
-      <change afterPath="$PROJECT_DIR$/School/src/TextReport/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/TextReport/BinaryTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/experiment/day02/List/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School/src/TextReport/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School/src/experiment/day02/List/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/experiment/day02/List/MyArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,7 +101,33 @@
       <recent name="newList.usedSize" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkManManageSystem">
+  <component name="RunManager" selected="Application.BinaryTreeTest">
+    <configuration name="BinaryTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextReport.BinaryTreeTest" />
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TextReport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstChapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiment.day02.FirstChapter" />
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiment.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkManManageSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="experiment.day02.exaltation.LinkManManageSystem" />
       <module name="School" />
@@ -112,38 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="experiment.day02.List.MyArrayListTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiment.day02.Main" />
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingleList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingleList.MyLinkedListTest" />
-      <module name="School" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SingleList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestClass.MyStackTest" />
-      <module name="School" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestClass.*" />
+          <option name="PATTERN" value="experiment.day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,8 +168,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="experiment.day02.List.MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="experiment.day02.List.MyLinkedListTest" />
+    <configuration name="experiment.day02.List.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiment.day02.List.Main" />
       <module name="School" />
       <extension name="coverage">
         <pattern>
@@ -180,19 +183,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test03" />
-      <item itemvalue="Application.experiment.day02.List.MyLinkedListTest" />
+      <item itemvalue="Application.BinaryTreeTest" />
+      <item itemvalue="Application.FirstChapter" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.experiment.day02.List.Main" />
       <item itemvalue="Application.LinkManManageSystem" />
-      <item itemvalue="Application.MyLinkedListTest" />
-      <item itemvalue="Application.MyStackTest" />
-      <item itemvalue="Application.MyArrayListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeTest" />
+        <item itemvalue="Application.experiment.day02.List.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FirstChapter" />
         <item itemvalue="Application.LinkManManageSystem" />
-        <item itemvalue="Application.experiment.day02.List.MyLinkedListTest" />
-        <item itemvalue="Application.MyArrayListTest" />
-        <item itemvalue="Application.MyLinkedListTest" />
-        <item itemvalue="Application.MyStackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +219,8 @@
       <workItem from="1694141756878" duration="6932000" />
       <workItem from="1694173360917" duration="281000" />
       <workItem from="1694176381993" duration="2947000" />
-      <workItem from="1694180384693" duration="2623000" />
+      <workItem from="1694180384693" duration="2969000" />
+      <workItem from="1694221277296" duration="14034000" />
     </task>
     <task id="LOCAL-00001" summary="day03.Test03">
       <created>1691287411051</created>
