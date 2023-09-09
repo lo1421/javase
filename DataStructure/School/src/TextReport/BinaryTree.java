@@ -33,6 +33,56 @@ public class BinaryTree {
         lastOrder(root.right);
         System.out.print(root.val + " ");
     }
+
+    //返回第k层的节点数=左树的k层节点个数+右树的k层节点的个数
+    public int getKLevelNodeCount(TreeNode root, int k) {
+        if (k < 0) {
+            return -1;
+        }
+        if (k == 0) return 1;
+        if (root == null) return 0;
+        if (k == 1) {
+            return 1;
+        }
+        return getKLevelNodeCount(root.left, k - 1) + getKLevelNodeCount(root.right, k - 1);
+    }
+
+    //获取树中节点的个数 = 左树的节点的总数+右树的节点的总数 +根节点的个数（1）
+    //用子问题来解题
+    public int size(TreeNode root) {
+        if (root == null) return 0;
+        return size(root.left) + size(root.right) + 1;
+    }
+
+    //获取叶子节点的个数 = 左树的叶子节点的个数+右树叶子节点的个数
+    //那么判断叶子树也就是当一个节点的左孩子和有孩子都为空的时候就是叶子结点
+    public int getLeafNodeCount(TreeNode root) {
+        if (root == null) return 0;
+        if (root.left == null && root.right == null) {
+            return 1;
+        }
+        return getLeafNodeCount(root.left) + getLeafNodeCount(root.right);
+    }
+
+    //获取二叉树的高度=max(左子树的高度，右子树的高度)+1(根节点)
+    public int getHeight(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int leftHeight = getHeight(root.left);
+        int rightHeight = getHeight(root.right);
+
+        if (leftHeight > rightHeight) {
+            return leftHeight + 1;
+        } else {
+            return rightHeight + 1;
+        }
+    }
+
+    //检测值为value的元素是否存在
+    //先从左树开始找，如果左树存在则返回，如果左树没有则到右树找，右树如果存在则返回。不存在就返回null
+    
+
     //使用穷举法模拟实现一个二叉树
     public TreeNode createBinaryTree() {
         TreeNode A = new TreeNode('A');
