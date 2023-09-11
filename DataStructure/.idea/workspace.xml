@@ -7,7 +7,6 @@
     <list default="true" id="919367dc-9107-468b-9057-682a2730d387" name="Changes" comment="day04.Test03">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/School/src/TextReport/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/TextReport/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/TextReport/BinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +219,8 @@
       <workItem from="1694180384693" duration="2969000" />
       <workItem from="1694221277296" duration="14034000" />
       <workItem from="1694261999765" duration="5518000" />
+      <workItem from="1694392949004" duration="2077000" />
+      <workItem from="1694426514531" duration="4601000" />
     </task>
     <task id="LOCAL-00001" summary="day03.Test03">
       <created>1691287411051</created>

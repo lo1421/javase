@@ -79,9 +79,36 @@ public class BinaryTree {
         }
     }
 
-    //检测值为value的元素是否存在
-    //先从左树开始找，如果左树存在则返回，如果左树没有则到右树找，右树如果存在则返回。不存在就返回null
-    
+    public TreeNode find(TreeNode root, char value) {
+        if (root == null) return null;
+        if (root.val == value) return root;
+
+
+        TreeNode leftTree = find(root.left, value);
+        if (leftTree != null) {
+            return leftTree;
+        }
+        TreeNode rightTree = find(root.right, value);
+        if (rightTree != null) {
+            return rightTree;
+        }
+        return null;
+    }
+
+    //传进来一个字符串，这个字符串是一棵树的前序遍历的结果，我们通过这个前序遍历创建一颗二叉树
+    public TreeNode createPreTree(String s) {
+        int i = 0;
+        //这是根节点
+        TreeNode root = new TreeNode(s.charAt(i));
+        for (int j = 1; j < s.length(); j++) {
+            char val = s.charAt(j);
+            if (val != '#') {
+                TreeNode leftTree = new TreeNode(val);
+                
+            }
+        }
+    }
+
 
     //使用穷举法模拟实现一个二叉树
     public TreeNode createBinaryTree() {
