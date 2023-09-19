@@ -72,4 +72,16 @@ public class MyLinkedListTest {
         }
         return newHead.next;
     }
+
+    //去除链表中所有重复出现的数
+    public void distinct(MyLinkedList list) {
+        MyLinkedList.ListNode cur = list.head;
+        MyLinkedList.ListNode fast = list.head.next;
+
+        while (cur != null) {
+
+        }
+
+    }
+
 }

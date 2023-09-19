@@ -2,7 +2,7 @@ package experiment.day02.List;
 
 public class MyArrayListTest {
     public static void main(String[] args) {
-        //准备两个顺序表（非递减的顺序表）
+       /* //准备两个顺序表（非递减的顺序表）
 
         MyArrayList myArrayList1 = new MyArrayList();
         myArrayList1.add(1);
@@ -34,7 +34,35 @@ public class MyArrayListTest {
 
         //调用display方法
         mergeArrayList.display();
+*/
 
+        MyArrayList myArrayList2 = new MyArrayList();
+
+        myArrayList2.add(1);
+        myArrayList2.add(1);
+        myArrayList2.add(2);
+        myArrayList2.add(2);
+        myArrayList2.add(2);
+        myArrayList2.add(3);
+        myArrayList2.add(4);
+        myArrayList2.add(5);
+        myArrayList2.add(5);
+        myArrayList2.add(5);
+        myArrayList2.add(6);
+        myArrayList2.add(6);
+        myArrayList2.add(7);
+        myArrayList2.add(7);
+        myArrayList2.add(8);
+        myArrayList2.add(8);
+        myArrayList2.add(8);
+        myArrayList2.add(9);
+        MyArrayListTest myArrayListTest = new MyArrayListTest();
+        int num = myArrayListTest.distinct(myArrayList2.elem);
+
+        System.out.println(num);
+        myArrayList2.display();
+
+//1，1，2，2，2，3，4，5，5，5，6，6，7，7，8，8，8，9
     }
 
     /**
@@ -69,6 +97,14 @@ public class MyArrayListTest {
             j++;
         }
         return newList;
+    }
+
+    public int distinct(int[] A) {
+        int t = 0;
+        for (int i = 0; i < A.length; i++) {
+            if (i == 0 || A[i] != A[i - 1]) A[t++] = A[i];
+        }
+        return t;
     }
 
     /*public static void main1(String[] args) {

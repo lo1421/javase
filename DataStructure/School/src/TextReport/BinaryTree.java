@@ -96,7 +96,7 @@ public class BinaryTree {
     }
 
     //传进来一个字符串，这个字符串是一棵树的前序遍历的结果，我们通过这个前序遍历创建一颗二叉树
-    public TreeNode createPreTree(String s) {
+  /*  public TreeNode createPreTree(String s) {
         int i = 0;
         //这是根节点
         TreeNode root = new TreeNode(s.charAt(i));
@@ -108,7 +108,7 @@ public class BinaryTree {
             }
         }
     }
-
+*/
 
     //使用穷举法模拟实现一个二叉树
     public TreeNode createBinaryTree() {

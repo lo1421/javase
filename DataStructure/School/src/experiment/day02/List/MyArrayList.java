@@ -47,7 +47,7 @@ public class MyArrayList {
             if (isFull()) {
                 elem = Arrays.copyOf(elem, 2 * elem.length);
             }
-            for (int i = usedSize - 1; i > pos; i--) {
+            for (int i = usedSize - 1; i >= pos; i--) {
                 elem[i + 1] = elem[i];
             }
             elem[pos] = data;
