@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/August/August.iml" filepath="$PROJECT_DIR$/August/August.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DataStructure.iml" filepath="$PROJECT_DIR$/.idea/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/School/School.iml" filepath="$PROJECT_DIR$/School/School.iml" />
+      <module fileurl="file://$PROJECT_DIR$/September.iml" filepath="$PROJECT_DIR$/September.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sort.iml" filepath="$PROJECT_DIR$/Sort.iml" />
     </modules>
   </component>
 </project>

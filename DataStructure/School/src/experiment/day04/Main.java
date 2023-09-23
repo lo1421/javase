@@ -43,10 +43,10 @@ class Main {
         }
 
         if (l1.val < l2.val) {
-            l1.next = merge(l1.next, l2);        //递归l1下一个结点再比较
+            l1.next = merge(l1.next, l2);  //递归l1下一个结点再比较
             return l1;
         } else {
-            l2.next = merge(l1, l2.next);        //递归l2下一个结点再比较
+            l2.next = merge(l1, l2.next);  //递归l2下一个结点再比较
             return l2;
         }
     }
