@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919367dc-9107-468b-9057-682a2730d387" name="Changes" comment="day04.Test03">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/August/src/day12/TestHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/September.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/September/Sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/September/Sort/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/September/Sort/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/September/Sort/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/September/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/experiment/day06/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/experiment/day06/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/src/experiment/day06/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/September/Sort/src/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/src/experiment/day04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/School/src/experiment/day04/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +106,7 @@
       <recent name="newList.usedSize" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.experiment.day06.Main">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="Sort" />
@@ -126,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Personally.ListTest" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiment.day06.Main2" />
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Personally.*" />
+          <option name="PATTERN" value="experiment.day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,25 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="experiment.day03.Main" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiment.day06.Main3" />
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="experiment.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="experiment.day02.List.MyArrayListTest" />
-      <module name="School" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="experiment.day02.List.*" />
+          <option name="PATTERN" value="experiment.day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,21 +167,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="experiment.day06.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiment.day06.Main" />
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiment.day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Test03" />
       <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.experiment.day06.Main" />
       <item itemvalue="Application.experiment.day04.Main" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ListTest" />
-      <item itemvalue="Application.MyArrayListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.experiment.day06.Main" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.experiment.day04.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MyArrayListTest" />
-        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +232,7 @@
       <workItem from="1695101368821" duration="1108000" />
       <workItem from="1695121594311" duration="11030000" />
       <workItem from="1695210613138" duration="1443000" />
-      <workItem from="1695441757338" duration="8957000" />
+      <workItem from="1695441757338" duration="22993000" />
     </task>
     <task id="LOCAL-00001" summary="day03.Test03">
       <created>1691287411051</created>
